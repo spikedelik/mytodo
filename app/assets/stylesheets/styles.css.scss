@@ -1,0 +1,154 @@
+@import 'bootstrap';
+@import 'bootstrap-responsive';
+$baseFontFamily: Oxygen;
+@import url(http://fonts.googleapis.com/css?family=Oxygen);
+@import url(http://fonts.googleapis.com/css?family=Shadows+Into+Light+Two);
+@import url(http://fonts.googleapis.com/css?family=Patrick+Hand+SC);
+
+#wrapper {
+
+	background: url('bg.png');
+}
+
+.logo {
+	
+	margin-left: 15px;
+	width: 100px;
+	height:120px;
+	float:left;
+	
+}
+
+.logofont{
+	clear: both;
+	margin-top: 22px;
+	margin-left: 0px;
+	display: inline-block;
+	font-family: 'Shadows Into Light Two', cursive;
+	color: #26b2d5;
+}
+
+ul li {
+
+	padding-top: 5px;
+}
+
+.span3 {
+	background-color:#26b2d5;
+	text-align:center;
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	border-radius: 10px;
+}
+
+
+.span9{
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	border-radius: 10px;
+}
+
+.side {
+	color:#5C5959;
+	font-family: 'Patrick Hand SC', cursive;
+	text-align: center;
+}
+
+div.hr {
+    background: none repeat scroll 0 0 #EEEEEE;
+    height: 1px;
+    margin: auto;
+    width: 80%;
+    
+    }
+
+div.hr hr {
+display: none;
+}
+
+
+.how {
+
+   	color: white;
+   	font-size: 25px;
+   	padding-bottom: 10px;
+   	text-decoration: none;
+   	text-align: center;
+   	font-family: 'Shadows Into Light Two', cursive;
+   	margin-top:15px;
+
+    }
+
+
+p.smartass{
+	left-margin:15px;
+	line-height: 25px;
+
+}
+
+.smartass{
+	
+	font-family: 'Patrick Hand SC', cursive;
+	color: gray;
+	font-size: 12px;
+	margin-bottom:-15px;
+
+	
+		}
+
+.smartass2{
+
+	font-family: 'Patrick Hand SC', cursive;
+	color: #C5ECF1;
+	font-size: 15px;
+	line-height:14px;
+	margin-top: 18px;
+}
+
+.hero-unit{
+	 
+	 height: 175px;
+}
+
+
+.signup {
+        margin-top: 30px
+
+}
+
+.herowrap{
+	margin: auto;
+}
+
+.herotext {
+	font-size: 22px;
+	color:#5C5959;
+	font-family: 'Shadows Into Light Two', cursive;
+
+}
+
+
+.mainText{
+	font-family: 'Shadows Into Light Two', cursive;
+	font-size:40px;
+	font-color: white;
+	margin-top: 20px;
+	margin-bottom:50px;
+}
+
+
+.line{
+	width: 500px;
+	margin:auto;
+	padding-top:125px;
+}
+
+.footer {
+
+	color:$grayLight;
+	text-align: center;
+
+	a{
+		color:$gray;
+	}
+}
