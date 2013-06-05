@@ -20,13 +20,18 @@ $baseFontFamily: Oxygen;
 }
 
 .logofont{
+
 	clear: both;
 	margin-top: 22px;
 	margin-left: 0px;
 	display: inline-block;
 	font-family: 'Shadows Into Light Two', cursive;
-	color: #26b2d5;
+	color: #26b2d5;	
 }
+
+a:hover { 
+	   text-decoration: none;
+	}
 
 ul li {
 
